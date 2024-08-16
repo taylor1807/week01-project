@@ -66,17 +66,17 @@ h2 {
 .launch {
   position: absolute;
   left: 75px;
-  bottom: -1120px;
+  bottom: 150px;
 }
 .tickets {
   position: absolute;
   left: 75px;
-  bottom: -1120px;
+  bottom: 150px;
 }
 .deals {
   position: absolute;
   left: 75px;
-  bottom: -1120px;
+  bottom: 150px;
 }
 #about {
   margin: 10px;
