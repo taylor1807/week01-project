@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  gap: 50px;
+  position: fixed;
+  color: white;
+  width: 600px;
+  font-size: 36px;
+  font-family: sans-serif;
+}
+.feature {
+  height: 100svh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image1 {
+  background-image: url(https://spacey-kappa.vercel.app/assets/galaxy-5803c9f1.jpg);
+}
+.image2 {
+  background-image: url(https://spacey-kappa.vercel.app/assets/landscape-2ee9445b.jpg);
+}
+.image3 {
+  background-image: url(https://spacey-kappa.vercel.app/assets/eclipse-11d9479c.jpg);
+}
+nav {
+  display: flex;
+  flex-direction: row;
+}
+.but {
+  margin-right: 50px;
+  color: white;
+  background-color: black;
+  font-size: 36px;
+  font-family: sans-serif;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.but:hover {
+  color: black;
+  background-color: white;
+}
+p {
+  color: white;
+  margin: 10px;
+  font-size: 26px;
+  font-family: sans-serif;
+}
+h2 {
+  color: white;
+  margin: 10px;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+/* all the absolute divs kept appearing on top of each other, so added an additional "container" div for each then they started appearing to high but managed to fix with a -1120px */
+.container {
+  position: relative;
+}
+.launch {
+  position: absolute;
+  left: 75px;
+  bottom: -1120px;
+}
+.tickets {
+  position: absolute;
+  left: 75px;
+  bottom: -1120px;
+}
+.deals {
+  position: absolute;
+  left: 75px;
+  bottom: -1120px;
+}
+#about {
+  margin: 10px;
+}
+#buy {
+  margin: 10px;
+}
+#price {
+  margin: 10px;
+}
+footer {
+  color: rgb(194, 194, 194);
+  background-color: black;
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+#about {
+  color: white;
+  background-color: black;
+  font-size: 36px;
+  font-family: sans-serif;
+  border-radius: 10px;
+}
+#about:hover {
+  color: black;
+  background-color: white;
+}
+#buy {
+  color: white;
+  background-color: black;
+  font-size: 36px;
+  font-family: sans-serif;
+  border-radius: 10px;
+}
+#buy:hover {
+  color: black;
+  background-color: white;
+}
+#price {
+  color: white;
+  background-color: black;
+  font-size: 36px;
+  font-family: sans-serif;
+  border-radius: 10px;
+}
+#price:hover {
+  color: black;
+  background-color: white;
+}
+#top {
+  display: none;
+}
