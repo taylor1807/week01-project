@@ -65,18 +65,18 @@ h2 {
 }
 .launch {
   position: absolute;
-  left: 75px;
-  bottom: 150px;
+  left: 5%;
+  bottom: 10%;
 }
 .tickets {
   position: absolute;
-  left: 75px;
-  bottom: 150px;
+  left: 5%;
+  bottom: 10%;
 }
 .deals {
   position: absolute;
-  left: 75px;
-  bottom: 150px;
+  left: 5%;
+  bottom: 10%;
 }
 #about {
   margin: 10px;
