@@ -1,6 +1,9 @@
 * {
   margin: 0px;
 }
+* {
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -59,24 +62,13 @@ h2 {
   font-size: 40px;
   font-family: sans-serif;
 }
-/* all the absolute divs kept appearing on top of each other, so added an additional "container" div for each then they started appearing to high but managed to fix with a -1120px */
-.container {
+.feature-container {
   position: relative;
 }
-.launch {
+.text-container {
   position: absolute;
-  left: 5%;
-  bottom: 10%;
-}
-.tickets {
-  position: absolute;
-  left: 5%;
-  bottom: 10%;
-}
-.deals {
-  position: absolute;
-  left: 5%;
-  bottom: 10%;
+  left: 25px;
+  top: 500px;
 }
 #about {
   margin: 10px;
