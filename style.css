@@ -4,9 +4,6 @@
 * {
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
-}
 header {
   display: flex;
   flex-direction: row;
@@ -17,6 +14,7 @@ header {
   width: 600px;
   font-size: 36px;
   font-family: sans-serif;
+  text-shadow: 3px 3px 5px whitesmoke;
 }
 .feature {
   height: 100svh;
@@ -45,6 +43,7 @@ nav {
   font-family: sans-serif;
   margin-top: 20px;
   border-radius: 10px;
+  cursor: pointer;
 }
 .but:hover {
   color: black;
@@ -70,14 +69,20 @@ h2 {
   left: 25px;
   top: 500px;
 }
+#home {
+  scroll-behavior: smooth;
+}
 #about {
   margin: 10px;
+  scroll-behavior: smooth;
 }
 #buy {
   margin: 10px;
+  scroll-behavior: smooth;
 }
 #price {
   margin: 10px;
+  scroll-behavior: smooth;
 }
 footer {
   color: rgb(194, 194, 194);
@@ -93,6 +98,7 @@ footer {
   font-size: 36px;
   font-family: sans-serif;
   border-radius: 10px;
+  cursor: pointer;
 }
 #about:hover {
   color: black;
@@ -104,6 +110,7 @@ footer {
   font-size: 36px;
   font-family: sans-serif;
   border-radius: 10px;
+  cursor: pointer;
 }
 #buy:hover {
   color: black;
@@ -115,6 +122,7 @@ footer {
   font-size: 36px;
   font-family: sans-serif;
   border-radius: 10px;
+  cursor: pointer;
 }
 #price:hover {
   color: black;
@@ -122,4 +130,18 @@ footer {
 }
 #top {
   display: none;
+}
+.audio {
+  background-color: black;
+  padding-left: 75%;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-around;
+}
+#fbx {
+  height: 50x;
+  width: 50px;
 }
