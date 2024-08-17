@@ -1,4 +1,4 @@
-// this was copied from w3schools https://www.w3schools.com/howto/howto_js_scroll_to_top.asp just to see if i could get it to work
+// this was written using this article from w3schools https://www.w3schools.com/howto/howto_js_scroll_to_top.asp just to see if i could get it to work
 let mybutton = document.getElementById("top");
 window.onscroll = function () {
   scrollfunction();

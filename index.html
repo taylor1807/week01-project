@@ -23,10 +23,14 @@
     </header>
     <main id="home">
       <div class="audio">
-        <audio controls autoplay muted>
-          <source src="gate.mp3" type="audio/mp3" />
-          <source src="rust.mp3" type="audio/mp3" />
-        </audio>
+        <!-- audio muted as chrome doesn't like autoplay -->
+        <audio
+          controls
+          autoplay
+          muted
+          src="assets/rust.mp3"
+          type="audio/mp3"
+        ></audio>
       </div>
       <section class="feature image1">
         <div class="feature-container">
